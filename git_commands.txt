@@ -13,3 +13,5 @@ git branch login // create new branch "login"
 git checkout login // switches to branch "login"
 git checkout master // switch back to master branch
 git merge login // merge changes done in login
+git remote add origin https://github.com/harrygue/newGitTest1.git // push to github repo
+git push -u origin master
