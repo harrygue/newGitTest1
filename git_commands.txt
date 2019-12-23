@@ -11,3 +11,5 @@ git restore git_commands.txt // discard changes in working directory
 touch .gitignore // ignores files and folders listed in this file
 git branch login // create new branch "login"
 git checkout login // switches to branch "login"
+git checkout master // switch back to master branch
+git merge login // 
