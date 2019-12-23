@@ -1,0 +1,8 @@
+git init // (master)
+git config --global user.name 'harrygue' // add username to configuration
+git config --global user.email 'hg070817.gue@gmail.com'
+git add index.html // add index file into staging repository
+git status //
+git rm --cached index.html // remove index file from staging repo
+git add *.txt // adds all .txt files
+git add . // adds all files in current directory
