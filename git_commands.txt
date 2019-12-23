@@ -8,4 +8,6 @@ git add *.txt // adds all .txt files
 git add . // adds all files in current directory
 git commit -m "initial commit"
 git restore git_commands.txt // discard changes in working directory
-touch .gitignore // ignores files listed in this file
+touch .gitignore // ignores files and folders listed in this file
+git branch login // create new branch "login"
+git checkout login // switches to branch "login"
